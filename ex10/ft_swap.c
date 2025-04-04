@@ -1,30 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
+/*   ft_swap.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/04 12:00:26 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/04 14:31:29 by msimoes          ###   ########.fr       */
+/*   Created: 2025/04/04 14:36:45 by msimoes           #+#    #+#             */
+/*   Updated: 2025/04/04 14:43:57 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include <stdio.h>
 
-void	ft_putchar(char c)
+void	ft_swap(int *a, int *b)
 {
-	write(1, &c, 1);
-}
+	int	temp;
 
-void	ft_print_aplhabet(void)
-{
-	char	c;
-
-	c = 'a';
-	while (c <= 'z')
-	{
-		ft_putchar(c);
-		c++;
-	}
+	temp = *a;
+	*a = *b;
+	*b = temp;
 }

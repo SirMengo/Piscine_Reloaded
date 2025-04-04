@@ -6,11 +6,16 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/04 12:08:22 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/04 12:16:16 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/04 14:32:29 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
+
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
 
 void	ft_print_numbers(void)
 {
@@ -21,7 +26,7 @@ void	ft_print_numbers(void)
 	while (i <= 9)
 	{
 		c = i + '0';
-		write(1, &c, 1);
+		ft_putchar(c);
 		i++;
 	}
 }
