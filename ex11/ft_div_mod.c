@@ -1,27 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
+/*   ft_div_mod.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/04 12:08:22 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/04 15:54:43 by msimoes          ###   ########.fr       */
+/*   Created: 2025/04/04 14:53:34 by msimoes           #+#    #+#             */
+/*   Updated: 2025/04/04 14:55:50 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char c);
-
-void	ft_print_numbers(void)
+void	ft_div_mod(int a, int b, int *div, int *mod)
 {
-	int		i;
-	char	c;
-
-	i = 0;
-	while (i <= 9)
-	{
-		c = i + '0';
-		ft_putchar(c);
-		i++;
-	}
+	
 }
