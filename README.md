@@ -1,2 +1,5 @@
 # Piscine_Reloaded
+
+# DO NOT COPY THESE. PLEASE DO THE EXERCISES BY YOURSELF AND BE SURE TO UNDERSTAND THEM.
+
 Exercises from the C Piscine Reloaded
