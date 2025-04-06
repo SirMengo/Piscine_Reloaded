@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/05 21:22:07 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/06 13:02:50 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/06 20:01:04 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,7 +64,7 @@ int	main(int argc, char *argv[])
 				temp = argv[count1];
 				argv[count1] = argv[count2];
 				argv[count2] = temp;
-			}	
+			}
 			count2++;
 		}
 		ft_putstr(argv[count1]);
