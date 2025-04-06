@@ -6,13 +6,16 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/05 21:22:07 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/05 22:31:44 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/06 13:02:50 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(char c);
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
 
 void	ft_putstr(char *str)
 {
@@ -61,12 +64,11 @@ int	main(int argc, char *argv[])
 				temp = argv[count1];
 				argv[count1] = argv[count2];
 				argv[count2] = temp;
-			}
+			}	
 			count2++;
 		}
-		count2 = 0;
 		ft_putstr(argv[count1]);
-		write(1, "\n", 1);
+		putchar("\n");
 		count1++;
 	}
 	return (0);
