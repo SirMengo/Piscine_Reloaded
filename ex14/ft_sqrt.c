@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/05 12:38:13 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/07 15:55:58 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/07 16:21:03 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int	ft_sqrt(int nb)
 	int	calc;
 
 	i = 0;
-	while ((i * i) < nb)
+	while ((i * i) <= nb)
 	{
 		calc = i * i;
 		if (calc == nb)
