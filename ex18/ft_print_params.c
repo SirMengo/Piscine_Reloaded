@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/05 21:10:04 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/05 21:20:49 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/07 12:41:24 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int	main(int argc, char *argv[])
 			}
 			j = 0;
 			i++;
-			write(1, "\n", 1);
+			ft_putchar('\n');
 		}
 	}
 	return (0);
