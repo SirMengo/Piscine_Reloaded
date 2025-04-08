@@ -6,11 +6,13 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/05 13:00:16 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/05 13:31:15 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/08 18:12:39 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char c);
+#include <unistd.h>
+
+void ft_putchar(char c);
 
 void	ft_putstr(char *str)
 {

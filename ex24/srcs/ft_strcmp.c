@@ -6,9 +6,11 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/05 13:20:56 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/05 13:30:18 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/08 18:11:16 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <unistd.h>
 
 int	ft_strcmp(char *s1, char *s2)
 {

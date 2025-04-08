@@ -6,9 +6,11 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/05 13:11:17 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/05 13:31:01 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/08 18:11:19 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <unistd.h>
 
 int	ft_strlen(char *str)
 {

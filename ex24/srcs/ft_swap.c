@@ -6,9 +6,11 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/04 14:36:45 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/04 15:53:55 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/08 18:11:22 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <unistd.h>
 
 void	ft_swap(int *a, int *b)
 {
